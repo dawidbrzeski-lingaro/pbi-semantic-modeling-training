@@ -1,0 +1,261 @@
+ProductKey,Product Code,Product Name,Subcategory,Category,Brand,Color,Unit Cost,List Price
+1,P00001,Northpeak Tundra 738 Tent,Tents,Camping,Northpeak,Orange,139.39,258.99
+2,P00002,Kestrel Falcon 361 Sleeping Bag,Sleeping Bags,Camping,Kestrel,Yellow,121.75,220.99
+3,P00003,Bluefin Breeze 935 Camp Kitchen,Camp Kitchen,Camping,Bluefin,White,173.1,336.99
+4,P00004,Granite Line Nova 746 Backpack,Backpacks,Camping,Granite Line,Black,114.41,184.99
+5,P00005,Northpeak Sierra 558 Tent,Tents,Camping,Northpeak,Black,293.64,542.99
+6,P00006,Bluefin Echo 797 Sleeping Bag,Sleeping Bags,Camping,Bluefin,Yellow,190.26,389.99
+7,P00007,Granite Line Echo 350 Camp Kitchen,Camp Kitchen,Camping,Granite Line,Black,27.42,56.99
+8,P00008,Northpeak Delta 685 Backpack,Backpacks,Camping,Northpeak,Black,334.6,641.99
+9,P00009,Altura Nova 473 Tent,Tents,Camping,Altura,Yellow,86.46,147.99
+10,P00010,Northpeak Glacier 838 Sleeping Bag,Sleeping Bags,Camping,Northpeak,Yellow,27.53,48.99
+11,P00011,Altura Tundra 910 Camp Kitchen,Camp Kitchen,Camping,Altura,Orange,30.65,62.99
+12,P00012,Altura Delta 392 Backpack,Backpacks,Camping,Altura,Orange,135.46,276.99
+13,P00013,Northpeak Canyon 248 Tent,Tents,Camping,Northpeak,Black,91.07,152.99
+14,P00014,Northpeak Ridge 142 Sleeping Bag,Sleeping Bags,Camping,Northpeak,Yellow,38.6,78.99
+15,P00015,Altura Horizon 878 Camp Kitchen,Camp Kitchen,Camping,Altura,Grey,140.84,245.99
+16,P00016,Bluefin Echo 611 Backpack,Backpacks,Camping,Bluefin,Orange,36.93,59.99
+17,P00017,Bluefin Vertex 951 Tent,Tents,Camping,Bluefin,Blue,30.95,50.99
+18,P00018,Riverstone Tundra 276 Sleeping Bag,Sleeping Bags,Camping,Riverstone,Yellow,130.58,238.99
+19,P00019,Kestrel Summit 954 Camp Kitchen,Camp Kitchen,Camping,Kestrel,Green,129.98,264.99
+20,P00020,Altura Ridge 439 Backpack,Backpacks,Camping,Altura,Green,161.88,282.99
+21,P00021,Kestrel Pulse 381 Tent,Tents,Camping,Kestrel,Yellow,170.1,352.99
+22,P00022,Northpeak Ridge 490 Sleeping Bag,Sleeping Bags,Camping,Northpeak,Green,32.44,55.99
+23,P00023,Northpeak Nova 750 Camp Kitchen,Camp Kitchen,Camping,Northpeak,Blue,216.56,362.99
+24,P00024,Northpeak Breeze 749 Backpack,Backpacks,Camping,Northpeak,Green,41.94,74.99
+25,P00025,Northpeak Horizon 264 Tent,Tents,Camping,Northpeak,Red,24.5,44.99
+26,P00026,Northpeak Horizon 494 Sleeping Bag,Sleeping Bags,Camping,Northpeak,Orange,22.66,43.99
+27,P00027,Bluefin Tundra 747 Camp Kitchen,Camp Kitchen,Camping,Bluefin,Grey,232.89,465.99
+28,P00028,Granite Line Tundra 838 Backpack,Backpacks,Camping,Granite Line,Black,114.57,187.99
+29,P00029,Riverstone Canyon 213 Tent,Tents,Camping,Riverstone,Green,93.41,152.99
+30,P00030,Kestrel Ridge 113 Sleeping Bag,Sleeping Bags,Camping,Kestrel,Red,256.14,459.99
+31,P00031,Granite Line Tundra 797 Camp Kitchen,Camp Kitchen,Camping,Granite Line,Green,117.92,205.99
+32,P00032,Riverstone Delta 591 Backpack,Backpacks,Camping,Riverstone,Orange,85.34,164.99
+33,P00033,Granite Line Drift 340 Tent,Tents,Camping,Granite Line,Grey,116.86,216.99
+34,P00034,Granite Line Aspen 828 Sleeping Bag,Sleeping Bags,Camping,Granite Line,White,35.57,64.99
+35,P00035,Bluefin Sierra 832 Camp Kitchen,Camp Kitchen,Camping,Bluefin,Green,62.27,119.99
+36,P00036,Kestrel Sierra 420 Backpack,Backpacks,Camping,Kestrel,Green,287.33,508.99
+37,P00037,Bluefin Summit 995 Tent,Tents,Camping,Bluefin,White,38.63,78.99
+38,P00038,Riverstone Horizon 304 Sleeping Bag,Sleeping Bags,Camping,Riverstone,White,277.08,566.99
+39,P00039,Bluefin Ridge 267 Camp Kitchen,Camp Kitchen,Camping,Bluefin,Grey,125.24,202.99
+40,P00040,Bluefin Nova 735 Backpack,Backpacks,Camping,Bluefin,Yellow,50.62,100.99
+41,P00041,Kestrel Horizon 767 Tent,Tents,Camping,Kestrel,Grey,214.61,397.99
+42,P00042,Granite Line Pulse 142 Sleeping Bag,Sleeping Bags,Camping,Granite Line,Red,340.93,576.99
+43,P00043,Altura Canyon 102 Camp Kitchen,Camp Kitchen,Camping,Altura,Green,318.45,540.99
+44,P00044,Northpeak Sierra 516 Backpack,Backpacks,Camping,Northpeak,White,35.89,64.99
+45,P00045,Northpeak Summit 391 Tent,Tents,Camping,Northpeak,Black,102.01,188.99
+46,P00046,Riverstone Pulse 568 Sleeping Bag,Sleeping Bags,Camping,Riverstone,Black,66.95,134.99
+47,P00047,Northpeak Canyon 419 Camp Kitchen,Camp Kitchen,Camping,Northpeak,Blue,55.99,100.99
+48,P00048,Bluefin Sierra 971 Backpack,Backpacks,Camping,Bluefin,Green,125.9,258.99
+49,P00049,Northpeak Canyon 760 Tent,Tents,Camping,Northpeak,White,95.85,183.99
+50,P00050,Altura Ridge 810 Sleeping Bag,Sleeping Bags,Camping,Altura,Yellow,70.41,129.99
+51,P00051,Altura Ridge 857 Camp Kitchen,Camp Kitchen,Camping,Altura,Grey,125.37,211.99
+52,P00052,Bluefin Canyon 925 Backpack,Backpacks,Camping,Bluefin,Yellow,236.2,394.99
+53,P00053,Kestrel Trail 764 Rope,Ropes,Climbing,Kestrel,Grey,109.72,189.99
+54,P00054,Riverstone Trail 509 Harnesse,Harnesses,Climbing,Riverstone,Blue,17.55,34.99
+55,P00055,Bluefin Echo 286 Helmet,Helmets,Climbing,Bluefin,Red,29.43,56.99
+56,P00056,Granite Line Breeze 979 Climbing Shoe,Climbing Shoes,Climbing,Granite Line,Blue,247.6,413.99
+57,P00057,Altura Delta 880 Rope,Ropes,Climbing,Altura,Blue,180.81,324.99
+58,P00058,Northpeak Echo 290 Harnesse,Harnesses,Climbing,Northpeak,Black,135.06,247.99
+59,P00059,Northpeak Pulse 156 Helmet,Helmets,Climbing,Northpeak,Black,218.22,374.99
+60,P00060,Altura Sierra 216 Climbing Shoe,Climbing Shoes,Climbing,Altura,Orange,47.88,80.99
+61,P00061,Granite Line Nova 254 Rope,Ropes,Climbing,Granite Line,Grey,23.76,39.99
+62,P00062,Bluefin Ridge 946 Harnesse,Harnesses,Climbing,Bluefin,Grey,59.34,104.99
+63,P00063,Kestrel Sierra 534 Helmet,Helmets,Climbing,Kestrel,Black,28.43,48.99
+64,P00064,Granite Line Tundra 361 Climbing Shoe,Climbing Shoes,Climbing,Granite Line,Green,44.95,87.99
+65,P00065,Bluefin Canyon 386 Rope,Ropes,Climbing,Bluefin,Green,19.87,36.99
+66,P00066,Bluefin Aspen 476 Harnesse,Harnesses,Climbing,Bluefin,Orange,229.95,407.99
+67,P00067,Riverstone Nova 593 Helmet,Helmets,Climbing,Riverstone,Red,57.28,88.99
+68,P00068,Bluefin Falcon 818 Climbing Shoe,Climbing Shoes,Climbing,Bluefin,Black,108.7,177.99
+69,P00069,Bluefin Breeze 774 Rope,Ropes,Climbing,Bluefin,Yellow,33.02,55.99
+70,P00070,Kestrel Glacier 871 Harnesse,Harnesses,Climbing,Kestrel,Grey,247.09,397.99
+71,P00071,Kestrel Pulse 495 Helmet,Helmets,Climbing,Kestrel,Blue,21.54,38.99
+72,P00072,Riverstone Aspen 270 Climbing Shoe,Climbing Shoes,Climbing,Riverstone,Blue,65.08,120.99
+73,P00073,Bluefin Sierra 508 Rope,Ropes,Climbing,Bluefin,Black,32.69,55.99
+74,P00074,Riverstone Summit 232 Harnesse,Harnesses,Climbing,Riverstone,Blue,72.52,123.99
+75,P00075,Bluefin Vertex 505 Helmet,Helmets,Climbing,Bluefin,Green,140.76,240.99
+76,P00076,Kestrel Drift 155 Climbing Shoe,Climbing Shoes,Climbing,Kestrel,Orange,62.83,100.99
+77,P00077,Northpeak Breeze 546 Rope,Ropes,Climbing,Northpeak,Red,90.59,144.99
+78,P00078,Bluefin Ridge 257 Harnesse,Harnesses,Climbing,Bluefin,Green,25.04,46.99
+79,P00079,Riverstone Echo 824 Helmet,Helmets,Climbing,Riverstone,Black,20.72,39.99
+80,P00080,Granite Line Breeze 606 Climbing Shoe,Climbing Shoes,Climbing,Granite Line,Green,31.03,54.99
+81,P00081,Granite Line Vertex 528 Rope,Ropes,Climbing,Granite Line,Orange,37.36,61.99
+82,P00082,Granite Line Pulse 841 Harnesse,Harnesses,Climbing,Granite Line,Orange,37.29,62.99
+83,P00083,Kestrel Pulse 241 Helmet,Helmets,Climbing,Kestrel,Red,28.69,47.99
+84,P00084,Altura Aspen 498 Climbing Shoe,Climbing Shoes,Climbing,Altura,Orange,24.0,38.99
+85,P00085,Bluefin Canyon 125 Rope,Ropes,Climbing,Bluefin,White,104.96,200.99
+86,P00086,Granite Line Drift 159 Harnesse,Harnesses,Climbing,Granite Line,Yellow,59.34,102.99
+87,P00087,Northpeak Orbit 526 Helmet,Helmets,Climbing,Northpeak,Red,23.54,36.99
+88,P00088,Altura Canyon 347 Climbing Shoe,Climbing Shoes,Climbing,Altura,Yellow,46.67,81.99
+89,P00089,Kestrel Delta 362 Rope,Ropes,Climbing,Kestrel,Black,47.44,81.99
+90,P00090,Riverstone Aspen 261 Harnesse,Harnesses,Climbing,Riverstone,Blue,33.16,56.99
+91,P00091,Northpeak Pulse 364 Helmet,Helmets,Climbing,Northpeak,White,216.21,361.99
+92,P00092,Altura Echo 268 Climbing Shoe,Climbing Shoes,Climbing,Altura,White,33.42,64.99
+93,P00093,Altura Drift 589 Rope,Ropes,Climbing,Altura,Blue,36.62,63.99
+94,P00094,Northpeak Delta 493 Harnesse,Harnesses,Climbing,Northpeak,Orange,103.27,177.99
+95,P00095,Riverstone Drift 904 Helmet,Helmets,Climbing,Riverstone,Grey,22.26,43.99
+96,P00096,Altura Glacier 636 Climbing Shoe,Climbing Shoes,Climbing,Altura,Red,41.86,76.99
+97,P00097,Altura Orbit 694 Rope,Ropes,Climbing,Altura,Green,62.41,102.99
+98,P00098,Granite Line Echo 533 Harnesse,Harnesses,Climbing,Granite Line,Blue,26.26,47.99
+99,P00099,Granite Line Canyon 276 Helmet,Helmets,Climbing,Granite Line,Grey,242.53,406.99
+100,P00100,Kestrel Aspen 316 Climbing Shoe,Climbing Shoes,Climbing,Kestrel,Orange,141.2,221.99
+101,P00101,Riverstone Nova 108 Rope,Ropes,Climbing,Riverstone,White,191.48,303.99
+102,P00102,Altura Horizon 129 Harnesse,Harnesses,Climbing,Altura,Orange,39.87,65.99
+103,P00103,Bluefin Falcon 189 Helmet,Helmets,Climbing,Bluefin,Red,142.0,255.99
+104,P00104,Bluefin Tundra 384 Climbing Shoe,Climbing Shoes,Climbing,Bluefin,Grey,21.33,40.99
+105,P00105,Granite Line Delta 220 Road Bike,Road Bikes,Cycling,Granite Line,Grey,499.07,816.99
+106,P00106,Northpeak Tundra 200 Mountain Bike,Mountain Bikes,Cycling,Northpeak,Grey,123.78,189.99
+107,P00107,Bluefin Orbit 342 Bike Helmet,Bike Helmets,Cycling,Bluefin,Grey,118.5,174.99
+108,P00108,Altura Pulse 637 Cycling Apparel,Cycling Apparel,Cycling,Altura,White,173.87,265.99
+109,P00109,Riverstone Falcon 335 Road Bike,Road Bikes,Cycling,Riverstone,Black,22.3,39.99
+110,P00110,Riverstone Tundra 204 Mountain Bike,Mountain Bikes,Cycling,Riverstone,Green,1793.14,2598.99
+111,P00111,Kestrel Orbit 121 Bike Helmet,Bike Helmets,Cycling,Kestrel,Red,606.95,1010.99
+112,P00112,Northpeak Tundra 617 Cycling Apparel,Cycling Apparel,Cycling,Northpeak,Red,40.85,64.99
+113,P00113,Riverstone Sierra 990 Road Bike,Road Bikes,Cycling,Riverstone,Yellow,347.26,586.99
+114,P00114,Kestrel Falcon 930 Mountain Bike,Mountain Bikes,Cycling,Kestrel,Orange,644.97,1034.99
+115,P00115,Riverstone Aspen 256 Bike Helmet,Bike Helmets,Cycling,Riverstone,Yellow,18.35,32.99
+116,P00116,Northpeak Vertex 682 Cycling Apparel,Cycling Apparel,Cycling,Northpeak,Black,38.82,65.99
+117,P00117,Altura Falcon 963 Road Bike,Road Bikes,Cycling,Altura,Orange,28.82,41.99
+118,P00118,Bluefin Glacier 284 Mountain Bike,Mountain Bikes,Cycling,Bluefin,Grey,1233.31,2241.99
+119,P00119,Kestrel Falcon 747 Bike Helmet,Bike Helmets,Cycling,Kestrel,Grey,922.44,1504.99
+120,P00120,Bluefin Canyon 132 Cycling Apparel,Cycling Apparel,Cycling,Bluefin,White,118.14,170.99
+121,P00121,Northpeak Summit 103 Road Bike,Road Bikes,Cycling,Northpeak,Orange,1863.09,2817.99
+122,P00122,Riverstone Nova 699 Mountain Bike,Mountain Bikes,Cycling,Riverstone,Blue,163.29,294.99
+123,P00123,Northpeak Delta 577 Bike Helmet,Bike Helmets,Cycling,Northpeak,Orange,241.04,365.99
+124,P00124,Granite Line Delta 326 Cycling Apparel,Cycling Apparel,Cycling,Granite Line,Grey,66.52,115.99
+125,P00125,Bluefin Orbit 251 Road Bike,Road Bikes,Cycling,Bluefin,White,231.16,375.99
+126,P00126,Bluefin Summit 520 Mountain Bike,Mountain Bikes,Cycling,Bluefin,Grey,161.39,259.99
+127,P00127,Kestrel Orbit 295 Bike Helmet,Bike Helmets,Cycling,Kestrel,Yellow,1098.87,1874.99
+128,P00128,Bluefin Trail 352 Cycling Apparel,Cycling Apparel,Cycling,Bluefin,Grey,41.85,74.99
+129,P00129,Kestrel Vertex 881 Road Bike,Road Bikes,Cycling,Kestrel,Black,51.83,90.99
+130,P00130,Bluefin Aspen 337 Mountain Bike,Mountain Bikes,Cycling,Bluefin,Red,41.59,60.99
+131,P00131,Altura Orbit 826 Bike Helmet,Bike Helmets,Cycling,Altura,Blue,147.68,240.99
+132,P00132,Granite Line Delta 293 Cycling Apparel,Cycling Apparel,Cycling,Granite Line,Green,26.02,45.99
+133,P00133,Riverstone Orbit 622 Road Bike,Road Bikes,Cycling,Riverstone,Blue,1747.97,2893.99
+134,P00134,Kestrel Tundra 301 Mountain Bike,Mountain Bikes,Cycling,Kestrel,White,225.45,380.99
+135,P00135,Northpeak Sierra 230 Bike Helmet,Bike Helmets,Cycling,Northpeak,Black,101.2,158.99
+136,P00136,Kestrel Falcon 460 Cycling Apparel,Cycling Apparel,Cycling,Kestrel,Red,810.22,1340.99
+137,P00137,Granite Line Horizon 574 Road Bike,Road Bikes,Cycling,Granite Line,Yellow,1265.68,2079.99
+138,P00138,Granite Line Delta 172 Mountain Bike,Mountain Bikes,Cycling,Granite Line,Red,385.33,624.99
+139,P00139,Kestrel Pulse 480 Bike Helmet,Bike Helmets,Cycling,Kestrel,Orange,22.87,33.99
+140,P00140,Altura Nova 346 Cycling Apparel,Cycling Apparel,Cycling,Altura,Blue,32.11,45.99
+141,P00141,Altura Delta 991 Road Bike,Road Bikes,Cycling,Altura,Green,51.73,87.99
+142,P00142,Kestrel Aspen 985 Mountain Bike,Mountain Bikes,Cycling,Kestrel,White,1067.78,1696.99
+143,P00143,Bluefin Ridge 213 Bike Helmet,Bike Helmets,Cycling,Bluefin,White,139.49,208.99
+144,P00144,Riverstone Horizon 278 Cycling Apparel,Cycling Apparel,Cycling,Riverstone,Blue,1208.51,1871.99
+145,P00145,Altura Drift 406 Road Bike,Road Bikes,Cycling,Altura,Yellow,381.21,565.99
+146,P00146,Northpeak Summit 127 Mountain Bike,Mountain Bikes,Cycling,Northpeak,Green,226.73,346.99
+147,P00147,Northpeak Orbit 474 Bike Helmet,Bike Helmets,Cycling,Northpeak,Green,171.3,308.99
+148,P00148,Kestrel Horizon 842 Cycling Apparel,Cycling Apparel,Cycling,Kestrel,Blue,203.08,306.99
+149,P00149,Riverstone Canyon 544 Road Bike,Road Bikes,Cycling,Riverstone,Red,496.53,727.99
+150,P00150,Altura Horizon 447 Mountain Bike,Mountain Bikes,Cycling,Altura,Red,812.56,1398.99
+151,P00151,Northpeak Sierra 479 Bike Helmet,Bike Helmets,Cycling,Northpeak,Red,501.77,721.99
+152,P00152,Bluefin Horizon 787 Cycling Apparel,Cycling Apparel,Cycling,Bluefin,Blue,29.13,46.99
+153,P00153,Northpeak Summit 445 Road Bike,Road Bikes,Cycling,Northpeak,Orange,94.19,159.99
+154,P00154,Granite Line Aspen 937 Mountain Bike,Mountain Bikes,Cycling,Granite Line,White,73.04,116.99
+155,P00155,Northpeak Orbit 821 Bike Helmet,Bike Helmets,Cycling,Northpeak,Grey,57.18,100.99
+156,P00156,Altura Nova 160 Cycling Apparel,Cycling Apparel,Cycling,Altura,Red,132.49,189.99
+157,P00157,Granite Line Tundra 568 Running Shoe,Running Shoes,Running,Granite Line,Black,66.55,131.99
+158,P00158,Kestrel Sierra 365 Running Apparel,Running Apparel,Running,Kestrel,White,39.73,68.99
+159,P00159,Altura Ridge 695 Sports Watche,Sports Watches,Running,Altura,Grey,15.41,26.99
+160,P00160,Kestrel Trail 739 Hydration,Hydration,Running,Kestrel,White,97.82,187.99
+161,P00161,Bluefin Pulse 126 Running Shoe,Running Shoes,Running,Bluefin,White,9.68,16.99
+162,P00162,Bluefin Glacier 389 Running Apparel,Running Apparel,Running,Bluefin,Grey,68.31,145.99
+163,P00163,Northpeak Horizon 918 Sports Watche,Sports Watches,Running,Northpeak,Black,107.49,199.99
+164,P00164,Riverstone Vertex 734 Hydration,Hydration,Running,Riverstone,Blue,31.66,53.99
+165,P00165,Altura Breeze 911 Running Shoe,Running Shoes,Running,Altura,Black,8.16,17.99
+166,P00166,Kestrel Pulse 264 Running Apparel,Running Apparel,Running,Kestrel,Orange,43.06,74.99
+167,P00167,Kestrel Ridge 696 Sports Watche,Sports Watches,Running,Kestrel,Blue,39.81,70.99
+168,P00168,Northpeak Delta 152 Hydration,Hydration,Running,Northpeak,Yellow,13.35,24.99
+169,P00169,Northpeak Nova 548 Running Shoe,Running Shoes,Running,Northpeak,Yellow,20.43,44.99
+170,P00170,Kestrel Aspen 805 Running Apparel,Running Apparel,Running,Kestrel,Black,17.94,29.99
+171,P00171,Granite Line Horizon 356 Sports Watche,Sports Watches,Running,Granite Line,Green,286.4,505.99
+172,P00172,Granite Line Summit 899 Hydration,Hydration,Running,Granite Line,Red,23.4,46.99
+173,P00173,Altura Canyon 929 Running Shoe,Running Shoes,Running,Altura,Blue,76.77,135.99
+174,P00174,Granite Line Drift 229 Running Apparel,Running Apparel,Running,Granite Line,Yellow,25.26,52.99
+175,P00175,Bluefin Ridge 674 Sports Watche,Sports Watches,Running,Bluefin,Black,102.12,194.99
+176,P00176,Northpeak Horizon 129 Hydration,Hydration,Running,Northpeak,Orange,13.82,27.99
+177,P00177,Kestrel Pulse 622 Running Shoe,Running Shoes,Running,Kestrel,Black,252.22,486.99
+178,P00178,Granite Line Orbit 514 Running Apparel,Running Apparel,Running,Granite Line,White,40.74,74.99
+179,P00179,Kestrel Delta 701 Sports Watche,Sports Watches,Running,Kestrel,Orange,128.53,276.99
+180,P00180,Bluefin Aspen 242 Hydration,Hydration,Running,Bluefin,Green,29.43,55.99
+181,P00181,Granite Line Aspen 531 Running Shoe,Running Shoes,Running,Granite Line,White,55.7,116.99
+182,P00182,Granite Line Drift 637 Running Apparel,Running Apparel,Running,Granite Line,Grey,96.46,170.99
+183,P00183,Kestrel Falcon 980 Sports Watche,Sports Watches,Running,Kestrel,Grey,12.69,22.99
+184,P00184,Riverstone Pulse 694 Hydration,Hydration,Running,Riverstone,Green,127.49,256.99
+185,P00185,Northpeak Tundra 591 Running Shoe,Running Shoes,Running,Northpeak,Blue,202.27,384.99
+186,P00186,Granite Line Vertex 740 Running Apparel,Running Apparel,Running,Granite Line,Orange,42.68,74.99
+187,P00187,Granite Line Breeze 967 Sports Watche,Sports Watches,Running,Granite Line,Green,58.55,97.99
+188,P00188,Kestrel Canyon 812 Hydration,Hydration,Running,Kestrel,Black,125.99,219.99
+189,P00189,Kestrel Aspen 114 Running Shoe,Running Shoes,Running,Kestrel,Green,111.0,213.99
+190,P00190,Riverstone Vertex 821 Running Apparel,Running Apparel,Running,Riverstone,Green,9.93,16.99
+191,P00191,Granite Line Horizon 742 Sports Watche,Sports Watches,Running,Granite Line,Orange,16.04,31.99
+192,P00192,Altura Vertex 113 Hydration,Hydration,Running,Altura,White,29.19,49.99
+193,P00193,Granite Line Vertex 781 Running Shoe,Running Shoes,Running,Granite Line,Red,77.24,136.99
+194,P00194,Granite Line Horizon 918 Running Apparel,Running Apparel,Running,Granite Line,Yellow,91.69,153.99
+195,P00195,Kestrel Aspen 421 Sports Watche,Sports Watches,Running,Kestrel,Black,56.97,98.99
+196,P00196,Riverstone Falcon 969 Hydration,Hydration,Running,Riverstone,Blue,56.22,99.99
+197,P00197,Altura Glacier 262 Running Shoe,Running Shoes,Running,Altura,Blue,69.03,142.99
+198,P00198,Riverstone Sierra 381 Running Apparel,Running Apparel,Running,Riverstone,Blue,14.95,24.99
+199,P00199,Kestrel Orbit 647 Sports Watche,Sports Watches,Running,Kestrel,Blue,268.56,489.99
+200,P00200,Northpeak Sierra 883 Hydration,Hydration,Running,Northpeak,Blue,28.84,57.99
+201,P00201,Granite Line Vertex 296 Running Shoe,Running Shoes,Running,Granite Line,Orange,33.67,61.99
+202,P00202,Riverstone Nova 294 Running Apparel,Running Apparel,Running,Riverstone,Red,12.37,21.99
+203,P00203,Riverstone Nova 388 Sports Watche,Sports Watches,Running,Riverstone,Green,242.1,514.99
+204,P00204,Bluefin Canyon 610 Hydration,Hydration,Running,Bluefin,White,13.33,23.99
+205,P00205,Bluefin Orbit 844 Running Shoe,Running Shoes,Running,Bluefin,Orange,81.12,137.99
+206,P00206,Altura Delta 504 Running Apparel,Running Apparel,Running,Altura,Red,127.95,247.99
+207,P00207,Altura Tundra 788 Sports Watche,Sports Watches,Running,Altura,White,29.92,50.99
+208,P00208,Kestrel Orbit 128 Hydration,Hydration,Running,Kestrel,Blue,20.66,38.99
+209,P00209,Granite Line Sierra 616 Kayak,Kayaks,Water Sports,Granite Line,Red,126.63,201.99
+210,P00210,Granite Line Canyon 556 Paddle Board,Paddle Boards,Water Sports,Granite Line,Blue,122.68,232.99
+211,P00211,Kestrel Drift 947 Wetsuit,Wetsuits,Water Sports,Kestrel,White,333.81,565.99
+212,P00212,Northpeak Falcon 700 Life Jacket,Life Jackets,Water Sports,Northpeak,Blue,150.65,246.99
+213,P00213,Northpeak Glacier 753 Kayak,Kayaks,Water Sports,Northpeak,White,30.16,48.99
+214,P00214,Altura Aspen 399 Paddle Board,Paddle Boards,Water Sports,Altura,Red,93.71,164.99
+215,P00215,Northpeak Delta 813 Wetsuit,Wetsuits,Water Sports,Northpeak,Grey,209.72,387.99
+216,P00216,Bluefin Canyon 969 Life Jacket,Life Jackets,Water Sports,Bluefin,Orange,788.64,1402.99
+217,P00217,Granite Line Nova 822 Kayak,Kayaks,Water Sports,Granite Line,Blue,46.78,81.99
+218,P00218,Northpeak Tundra 645 Paddle Board,Paddle Boards,Water Sports,Northpeak,Red,163.93,252.99
+219,P00219,Altura Drift 119 Wetsuit,Wetsuits,Water Sports,Altura,White,578.55,1026.99
+220,P00220,Altura Horizon 932 Life Jacket,Life Jackets,Water Sports,Altura,Blue,152.76,234.99
+221,P00221,Riverstone Sierra 737 Kayak,Kayaks,Water Sports,Riverstone,Blue,717.7,1213.99
+222,P00222,Altura Pulse 833 Paddle Board,Paddle Boards,Water Sports,Altura,White,1005.69,1767.99
+223,P00223,Riverstone Vertex 936 Wetsuit,Wetsuits,Water Sports,Riverstone,Orange,468.32,798.99
+224,P00224,Riverstone Tundra 312 Life Jacket,Life Jackets,Water Sports,Riverstone,White,282.11,520.99
+225,P00225,Granite Line Aspen 271 Kayak,Kayaks,Water Sports,Granite Line,White,29.69,47.99
+226,P00226,Kestrel Drift 968 Paddle Board,Paddle Boards,Water Sports,Kestrel,Yellow,75.6,135.99
+227,P00227,Kestrel Canyon 285 Wetsuit,Wetsuits,Water Sports,Kestrel,Green,185.64,292.99
+228,P00228,Northpeak Trail 708 Life Jacket,Life Jackets,Water Sports,Northpeak,White,719.19,1260.99
+229,P00229,Granite Line Glacier 513 Kayak,Kayaks,Water Sports,Granite Line,Green,43.24,73.99
+230,P00230,Northpeak Sierra 973 Paddle Board,Paddle Boards,Water Sports,Northpeak,Green,80.11,138.99
+231,P00231,Bluefin Summit 842 Wetsuit,Wetsuits,Water Sports,Bluefin,White,83.84,129.99
+232,P00232,Granite Line Aspen 275 Life Jacket,Life Jackets,Water Sports,Granite Line,White,43.63,78.99
+233,P00233,Granite Line Glacier 993 Kayak,Kayaks,Water Sports,Granite Line,Orange,1090.54,1706.99
+234,P00234,Granite Line Pulse 823 Paddle Board,Paddle Boards,Water Sports,Granite Line,Red,483.06,800.99
+235,P00235,Bluefin Glacier 333 Wetsuit,Wetsuits,Water Sports,Bluefin,Red,85.05,162.99
+236,P00236,Granite Line Delta 184 Life Jacket,Life Jackets,Water Sports,Granite Line,Black,923.87,1405.99
+237,P00237,Kestrel Sierra 857 Kayak,Kayaks,Water Sports,Kestrel,Green,175.62,287.99
+238,P00238,Riverstone Ridge 903 Paddle Board,Paddle Boards,Water Sports,Riverstone,Black,804.53,1544.99
+239,P00239,Northpeak Vertex 616 Wetsuit,Wetsuits,Water Sports,Northpeak,Red,611.57,1057.99
+240,P00240,Riverstone Trail 906 Life Jacket,Life Jackets,Water Sports,Riverstone,Blue,425.89,710.99
+241,P00241,Bluefin Canyon 685 Kayak,Kayaks,Water Sports,Bluefin,Orange,230.47,396.99
+242,P00242,Riverstone Vertex 403 Paddle Board,Paddle Boards,Water Sports,Riverstone,Red,371.02,640.99
+243,P00243,Granite Line Delta 852 Wetsuit,Wetsuits,Water Sports,Granite Line,Grey,266.99,439.99
+244,P00244,Riverstone Vertex 175 Life Jacket,Life Jackets,Water Sports,Riverstone,Orange,41.38,62.99
+245,P00245,Northpeak Echo 279 Kayak,Kayaks,Water Sports,Northpeak,White,40.73,76.99
+246,P00246,Granite Line Pulse 507 Paddle Board,Paddle Boards,Water Sports,Granite Line,White,53.1,91.99
+247,P00247,Granite Line Vertex 644 Wetsuit,Wetsuits,Water Sports,Granite Line,Blue,497.09,805.99
+248,P00248,Riverstone Nova 792 Life Jacket,Life Jackets,Water Sports,Riverstone,Orange,639.96,1076.99
+249,P00249,Riverstone Canyon 847 Kayak,Kayaks,Water Sports,Riverstone,Blue,270.18,429.99
+250,P00250,Riverstone Vertex 380 Paddle Board,Paddle Boards,Water Sports,Riverstone,Yellow,239.13,362.99
+251,P00251,Northpeak Nova 176 Wetsuit,Wetsuits,Water Sports,Northpeak,Black,153.82,250.99
+252,P00252,Kestrel Summit 941 Life Jacket,Life Jackets,Water Sports,Kestrel,Blue,784.82,1216.99
+253,P00253,Altura Breeze 984 Kayak,Kayaks,Water Sports,Altura,Black,132.54,208.99
+254,P00254,Northpeak Trail 955 Paddle Board,Paddle Boards,Water Sports,Northpeak,Orange,379.65,704.99
+255,P00255,Granite Line Nova 583 Wetsuit,Wetsuits,Water Sports,Granite Line,Black,307.09,518.99
+256,P00256,Altura Glacier 180 Life Jacket,Life Jackets,Water Sports,Altura,Grey,275.91,503.99
+257,P00257,Riverstone Delta 924 Kayak,Kayaks,Water Sports,Riverstone,Green,773.29,1355.99
+258,P00258,Kestrel Breeze 650 Paddle Board,Paddle Boards,Water Sports,Kestrel,Blue,35.32,55.99
+259,P00259,Kestrel Orbit 174 Wetsuit,Wetsuits,Water Sports,Kestrel,Red,496.15,894.99
+260,P00260,Riverstone Glacier 434 Life Jacket,Life Jackets,Water Sports,Riverstone,Grey,966.42,1493.99

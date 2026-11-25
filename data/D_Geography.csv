@@ -1,0 +1,43 @@
+GeographyKey,City,Country,Region
+1,Warsaw,Poland,EMEA
+2,Krakow,Poland,EMEA
+3,Gdansk,Poland,EMEA
+4,Wroclaw,Poland,EMEA
+5,Berlin,Germany,EMEA
+6,Munich,Germany,EMEA
+7,Hamburg,Germany,EMEA
+8,Paris,France,EMEA
+9,Lyon,France,EMEA
+10,London,United Kingdom,EMEA
+11,Manchester,United Kingdom,EMEA
+12,Madrid,Spain,EMEA
+13,Barcelona,Spain,EMEA
+14,Milan,Italy,EMEA
+15,Rome,Italy,EMEA
+16,Amsterdam,Netherlands,EMEA
+17,Stockholm,Sweden,EMEA
+18,Oslo,Norway,EMEA
+19,Prague,Czech Republic,EMEA
+20,Vienna,Austria,EMEA
+21,Zurich,Switzerland,EMEA
+22,Copenhagen,Denmark,EMEA
+23,Dubai,United Arab Emirates,EMEA
+24,New York,United States,Americas
+25,Chicago,United States,Americas
+26,Denver,United States,Americas
+27,Seattle,United States,Americas
+28,Los Angeles,United States,Americas
+29,Toronto,Canada,Americas
+30,Vancouver,Canada,Americas
+31,Mexico City,Mexico,Americas
+32,Sao Paulo,Brazil,Americas
+33,Santiago,Chile,Americas
+34,Tokyo,Japan,APAC
+35,Osaka,Japan,APAC
+36,Seoul,South Korea,APAC
+37,Singapore,Singapore,APAC
+38,Sydney,Australia,APAC
+39,Melbourne,Australia,APAC
+40,Auckland,New Zealand,APAC
+41,Mumbai,India,APAC
+42,Shanghai,China,APAC

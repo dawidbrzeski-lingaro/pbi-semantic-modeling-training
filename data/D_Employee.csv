@@ -1,0 +1,49 @@
+EmployeeKey,ManagerKey,Employee Name,Title,Region,Email,Monthly Salary
+1,,Hannah Martin,Head of Sales,Global,hannah.martin1@vistula-outdoor.example,26000
+2,1,Maria Brown,Regional Sales Director,EMEA,maria.brown2@vistula-outdoor.example,20462
+3,2,Laura Walker,Sales Manager,EMEA,laura.walker3@vistula-outdoor.example,12818
+4,3,Noah Patel,Sales Representative,EMEA,noah.patel4@vistula-outdoor.example,9441
+5,3,Daniel Sato,Sales Representative,EMEA,daniel.sato5@vistula-outdoor.example,9737
+6,3,Mia Silva,Sales Representative,EMEA,mia.silva6@vistula-outdoor.example,8816
+7,3,Piotr Bianchi,Sales Representative,EMEA,piotr.bianchi7@vistula-outdoor.example,7836
+8,3,Laura Novak,Sales Representative,EMEA,laura.novak8@vistula-outdoor.example,8902
+9,2,Maria Kowalski,Sales Manager,EMEA,maria.kowalski9@vistula-outdoor.example,12244
+10,9,Tomasz Lee,Sales Representative,EMEA,tomasz.lee10@vistula-outdoor.example,8990
+11,9,Olivia Wisniewska,Sales Representative,EMEA,olivia.wisniewska11@vistula-outdoor.example,9642
+12,9,Elena Wisniewska,Sales Representative,EMEA,elena.wisniewska12@vistula-outdoor.example,9704
+13,9,Daniel Lee,Sales Representative,EMEA,daniel.lee13@vistula-outdoor.example,9555
+14,9,Daniel Smith,Sales Representative,EMEA,daniel.smith14@vistula-outdoor.example,9452
+15,9,Ethan Muller,Sales Representative,EMEA,ethan.muller15@vistula-outdoor.example,7485
+16,2,Lukas Garcia,Sales Manager,EMEA,lukas.garcia16@vistula-outdoor.example,14065
+17,16,Ethan Tanaka,Sales Representative,EMEA,ethan.tanaka17@vistula-outdoor.example,7402
+18,16,Emma Kim,Sales Representative,EMEA,emma.kim18@vistula-outdoor.example,7301
+19,16,Mia Novak,Sales Representative,EMEA,mia.novak19@vistula-outdoor.example,8026
+20,16,Laura Dubois,Sales Representative,EMEA,laura.dubois20@vistula-outdoor.example,9236
+21,1,Isabel Kim,Regional Sales Director,Americas,isabel.kim21@vistula-outdoor.example,17512
+22,21,Anna Walker,Sales Manager,Americas,anna.walker22@vistula-outdoor.example,14854
+23,22,James Wisniewska,Sales Representative,Americas,james.wisniewska23@vistula-outdoor.example,9703
+24,22,Olivia Johnson,Sales Representative,Americas,olivia.johnson24@vistula-outdoor.example,8824
+25,22,Priya Silva,Sales Representative,Americas,priya.silva25@vistula-outdoor.example,9006
+26,22,Piotr Silva,Sales Representative,Americas,piotr.silva26@vistula-outdoor.example,8213
+27,22,Liam Dubois,Sales Representative,Americas,liam.dubois27@vistula-outdoor.example,8002
+28,22,Lukas Smith,Sales Representative,Americas,lukas.smith28@vistula-outdoor.example,7319
+29,21,Isabel Clark,Sales Manager,Americas,isabel.clark29@vistula-outdoor.example,14019
+30,29,Olivia Schmidt,Sales Representative,Americas,olivia.schmidt30@vistula-outdoor.example,10447
+31,29,Liam Brown,Sales Representative,Americas,liam.brown31@vistula-outdoor.example,10039
+32,29,Lucia Rossi,Sales Representative,Americas,lucia.rossi32@vistula-outdoor.example,9425
+33,29,Marco Johnson,Sales Representative,Americas,marco.johnson33@vistula-outdoor.example,7206
+34,1,Priya Garcia,Regional Sales Director,APAC,priya.garcia34@vistula-outdoor.example,19223
+35,34,Tomasz Patel,Sales Manager,APAC,tomasz.patel35@vistula-outdoor.example,12822
+36,35,James Lee,Sales Representative,APAC,james.lee36@vistula-outdoor.example,7679
+37,35,Hannah Dubois,Sales Representative,APAC,hannah.dubois37@vistula-outdoor.example,7999
+38,35,Isabel Garcia,Sales Representative,APAC,isabel.garcia38@vistula-outdoor.example,8972
+39,35,Tomasz Silva,Sales Representative,APAC,tomasz.silva39@vistula-outdoor.example,10119
+40,35,Maria Rossi,Sales Representative,APAC,maria.rossi40@vistula-outdoor.example,7906
+41,35,Olivia Johnson,Sales Representative,APAC,olivia.johnson41@vistula-outdoor.example,9907
+42,34,Sophie Novak,Sales Manager,APAC,sophie.novak42@vistula-outdoor.example,12648
+43,42,Maria Bianchi,Sales Representative,APAC,maria.bianchi43@vistula-outdoor.example,8322
+44,42,Olivia Wisniewska,Sales Representative,APAC,olivia.wisniewska44@vistula-outdoor.example,9921
+45,42,Piotr Clark,Sales Representative,APAC,piotr.clark45@vistula-outdoor.example,8846
+46,42,Olivia Novak,Sales Representative,APAC,olivia.novak46@vistula-outdoor.example,8658
+47,42,Olivia Jensen,Sales Representative,APAC,olivia.jensen47@vistula-outdoor.example,9306
+48,42,Mia Dubois,Sales Representative,APAC,mia.dubois48@vistula-outdoor.example,8154
