@@ -1,4 +1,4 @@
-# Lab 1.3 – Gdzie idzie pamięć? VertiPaq Analyzer
+# Lab 1.3 – Optymalizacja modelu -  VertiPaq Analyzer
 
 **Moduł 4 · ok. 20 min · start z `Day1_start.pbix` · wymaga DAX Studio**
 
