@@ -1,16 +1,16 @@
-# Lab 1.3 – Where does the memory go? VertiPaq Analyzer
+# Lab 1.3 – Gdzie idzie pamięć? VertiPaq Analyzer
 
-**Module 4 · ~20 min · starts from `Day1_start.pbix` · requires DAX Studio**
+**Moduł 4 · ok. 20 min · start z `Day1_start.pbix` · wymaga DAX Studio**
 
-## 1. Measure the starting point
+## 1. Zmierz punkt wyjścia
 
-1. **External Tools → DAX Studio** (or start DAX Studio and connect to the open PBIX).
+1. **External Tools → DAX Studio** (albo uruchom DAX Studio i połącz się z otwartym PBIX).
 2. **Advanced → View Metrics**.
-3. On the **Tables** tab note the total model size and the size of **F_Sales**.
-4. On the **Columns** tab sort by **Total Size**. Write down the top 5 columns with their
-   **Cardinality**, **Total Size** and **% DB**.
+3. Na zakładce **Tables** zapisz łączny rozmiar modelu i rozmiar **F_Sales**.
+4. Na zakładce **Columns** posortuj po **Total Size**. Zapisz 5 największych kolumn z ich
+   **Cardinality**, **Total Size** i **% DB**.
 
-| Column | Cardinality | Total size | % DB |
+| Kolumna | Cardinality | Total size | % DB |
 |---|---:|---:|---:|
 | | | | |
 | | | | |
@@ -18,23 +18,23 @@
 | | | | |
 | | | | |
 
-## 2. Analyze
+## 2. Analiza
 
-For each of the top 5 columns answer:
+Dla każdej z 5 największych kolumn odpowiedz:
 
-- Is it used in any measure, relationship or report?
-- Why is its cardinality so high?
-- Can it be removed, split or made less precise?
+- Czy jest używana w jakiejś mierze, relacji lub raporcie?
+- Dlaczego ma tak wysoką kardynalność?
+- Czy można ją usunąć, rozdzielić albo zmniejszyć jej precyzję?
 
-## 3. Optimize in Power Query
+## 3. Optymalizacja w Power Query
 
-Open **Transform data → F_Sales** and add these steps at the end:
+Otwórz **Transform data → F_Sales** i dodaj na końcu te kroki:
 
-1. **Remove** `Order Line GUID` and `Comment` – not used anywhere.
-2. **Split the timestamp** – keep only the hour of the order; the date is already in `OrderDateKey`:
-   add a custom column **Order Hour** = `Time.Hour([Order Date Time])` (whole number),
-   then remove `Order Date Time` and `Last Updated`.
-3. **Reduce precision** of `Net Amount`: round to 2 decimals and change the type to **Fixed decimal number**:
+1. **Usuń** `Order Line GUID` i `Comment` – nigdzie nieużywane.
+2. **Rozdziel znacznik czasu** – zostaw tylko godzinę zamówienia; data jest już w `OrderDateKey`:
+   dodaj kolumnę niestandardową (custom column) **Order Hour** = `Time.Hour([Order Date Time])` (liczba całkowita),
+   potem usuń `Order Date Time` i `Last Updated`.
+3. **Zmniejsz precyzję** `Net Amount`: zaokrąglij do 2 miejsc po przecinku i zmień typ na **Fixed decimal number**:
 
    ```m
    Rounded = Table.TransformColumns(
@@ -43,23 +43,23 @@ Open **Transform data → F_Sales** and add these steps at the end:
    )
    ```
 
-   (replace `PreviousStep` with the name of your last step)
+   (zamień `PreviousStep` na nazwę swojego ostatniego kroku)
 
 **Close & Apply**.
 
-## 4. Measure again
+## 4. Zmierz ponownie
 
-Re-run **View Metrics** and compare:
+Uruchom ponownie **View Metrics** i porównaj:
 
-| | Before | After |
+| | Przed | Po |
 |---|---:|---:|
-| Model size | | |
-| F_Sales size | | |
+| Rozmiar modelu | | |
+| Rozmiar F_Sales | | |
 
-Check that **Sales Amount** for 2025 is still **120,007,633**.
+Sprawdź, czy **Sales Amount** za 2025 nadal wynosi **120 007 633**.
 
-## 5. Discuss
+## 5. Do dyskusji
 
-1. Which single change saved the most? Why?
-2. `Sales Order Number` also has high cardinality, but `Order Count` uses it. What are the options?
-3. What would you check in VertiPaq Analyzer before every release of a model?
+1. Która pojedyncza zmiana dała największą oszczędność? Dlaczego?
+2. `Sales Order Number` też ma wysoką kardynalność, ale korzysta z niej `Order Count`. Jakie są opcje?
+3. Co sprawdziłbyś w VertiPaq Analyzer przed każdym wydaniem modelu?

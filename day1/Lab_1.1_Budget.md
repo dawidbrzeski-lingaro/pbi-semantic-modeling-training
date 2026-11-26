@@ -1,14 +1,14 @@
-# Lab 1.1 – Second fact table: actual vs. budget
+# Lab 1.1 – Druga tabela faktów: wykonanie vs budżet
 
-**Module 3A · ~20 min · starts from `Day1_start.pbix`**
+**Moduł 3A · ok. 20 min · start z `Day1_start.pbix`**
 
-The budget is planned at a coarser grain than sales: **month × product category × region**.
-You add it as a separate fact table and build actual-vs-budget measures on top of both facts.
+Budżet jest planowany z mniejszą szczegółowością (granularnością) niż sprzedaż: **miesiąc × kategoria produktu × region**.
+Dodajesz go jako osobną tabelę faktów i budujesz miary wykonanie vs budżet na obu faktach.
 
-## 1. Load the budget
+## 1. Załaduj budżet
 
 1. **Home → Transform data**.
-2. **New Source → Blank Query**, open **Advanced Editor** and paste:
+2. **New Source → Blank Query**, otwórz **Advanced Editor** i wklej:
 
    ```m
    let
@@ -28,24 +28,24 @@ You add it as a separate fact table and build actual-vs-budget measures on top o
        Typed
    ```
 
-3. Rename the query to **F_Budget** → **Close & Apply**.
+3. Zmień nazwę zapytania na **F_Budget** → **Close & Apply**.
 
-## 2. Relationships
+## 2. Relacje
 
-In **Model view** create three relationships:
+W **Model view** utwórz trzy relacje:
 
-| From | To | Cardinality | Cross-filter direction |
+| Od | Do | Kardynalność | Kierunek filtrowania |
 |---|---|---|---|
 | F_Budget[DateKey] | D_Date[DateKey] | Many-to-one | Single |
-| F_Budget[Category] | D_Product[Category] | **Many-to-many** | Single – *D_Product filters F_Budget* |
-| F_Budget[Region] | D_Geography[Region] | **Many-to-many** | Single – *D_Geography filters F_Budget* |
+| F_Budget[Category] | D_Product[Category] | **Many-to-many** | Single – *D_Product filtruje F_Budget* |
+| F_Budget[Region] | D_Geography[Region] | **Many-to-many** | Single – *D_Geography filtruje F_Budget* |
 
-`DateKey` in the budget is always the first day of the month, so the regular relationship to the date table works.
-Hide all F_Budget columns – users work with measures only.
+`DateKey` w budżecie to zawsze pierwszy dzień miesiąca, więc zwykła relacja z tabelą dat działa.
+Ukryj wszystkie kolumny F_Budget – użytkownicy pracują tylko na miarach.
 
-## 3. Measures
+## 3. Miary
 
-Create in the **_measures** table, display folder **Budget**:
+Utwórz w tabeli **_measures**, w folderze (display folder) **Budget**:
 
 ```dax
 Budget Amount =
@@ -62,34 +62,34 @@ Sales vs Budget % =
 DIVIDE ( [Sales Amount] - [Budget Amount], [Budget Amount] )
 ```
 
-Format: `#,##0` for the first two, `0.0%` for the last one.
+Format: `#,##0` dla dwóch pierwszych, `0.0%` dla ostatniej.
 
 ## 4. Test
 
-Matrix: rows **D_Product[Category]**, columns **D_Date[Year]**, values **Sales Amount, Budget Amount, Sales vs Budget %**.
+Macierz (Matrix): wiersze **D_Product[Category]**, kolumny **D_Date[Year]**, wartości **Sales Amount, Budget Amount, Sales vs Budget %**.
 
-**Check your result (2025):**
+**Sprawdź wynik (2025):**
 
 | Category | Sales Amount | Budget Amount | Sales vs Budget % |
 |---|---:|---:|---:|
-| Camping | 27,058,299 | 27,879,100 | -2.9% |
-| Climbing | 9,639,993 | 9,545,700 | 1.0% |
-| Cycling | 40,475,450 | 42,077,600 | -3.8% |
-| Running | 16,968,942 | 17,342,200 | -2.2% |
-| Water Sports | 25,864,948 | 26,260,000 | -1.5% |
-| **Total** | **120,007,633** | **123,104,600** | **-2.5%** |
+| Camping | 27 058 299 | 27 879 100 | -2,9% |
+| Climbing | 9 639 993 | 9 545 700 | 1,0% |
+| Cycling | 40 475 450 | 42 077 600 | -3,8% |
+| Running | 16 968 942 | 17 342 200 | -2,2% |
+| Water Sports | 25 864 948 | 26 260 000 | -1,5% |
+| **Total** | **120 007 633** | **123 104 600** | **-2,5%** |
 
-2026 shows a large gap because sales end in October while the budget covers the full year.
+W 2026 widać dużą różnicę, bo sprzedaż kończy się w październiku, a budżet obejmuje cały rok.
 
-## 5. Discuss
+## 5. Do dyskusji
 
-1. Add **D_Product[Product Name]** below Category. What happens to Budget Amount – and why?
-2. Replace Year with **D_Date[Date]**. On which days does the budget appear?
-3. Filter **D_Customer[Segment]**. Does the budget react? Should it?
+1. Dodaj **D_Product[Product Name]** pod Category. Co dzieje się z Budget Amount – i dlaczego?
+2. Zamień Year na **D_Date[Date]**. W które dni pojawia się budżet?
+3. Przefiltruj **D_Customer[Segment]**. Czy budżet reaguje? Czy powinien?
 
-## 6. Challenge (optional)
+## 6. Wyzwanie (opcjonalne)
 
-Show the budget only at the grain where it exists – blank below category and below month:
+Pokaż budżet tylko na poziomie granularności, na którym istnieje – puste poniżej kategorii i poniżej miesiąca:
 
 ```dax
 Budget Amount =
@@ -103,4 +103,4 @@ IF (
 )
 ```
 
-What other columns would you add to the condition? What are the trade-offs of this approach?
+Jakie inne kolumny dodałbyś do warunku? Jakie są wady i zalety tego podejścia?

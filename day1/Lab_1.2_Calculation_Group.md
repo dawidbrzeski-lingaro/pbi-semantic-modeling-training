@@ -1,16 +1,16 @@
-# Lab 1.2 – Calculation group: time intelligence without measure sprawl
+# Lab 1.2 – Calculation group: time intelligence bez mnożenia miar
 
-**Module 3B · ~20 min · starts from `Day1_start.pbix`**
+**Moduł 3B · ok. 20 min · start z `Day1_start.pbix`**
 
-Instead of writing `Sales Amount YTD`, `Margin YTD`, `Sales Amount PY` … for every measure,
-you create one calculation group that works for all measures.
+Zamiast pisać `Sales Amount YTD`, `Margin YTD`, `Sales Amount PY` … dla każdej miary,
+tworzysz jedną calculation group, która działa dla wszystkich miar.
 
-## 1. Create the calculation group
+## 1. Utwórz calculation group
 
-1. **Model view → Home → Calculation group** (confirm the prompt about implicit measures).
-2. Rename the table to **Time Intelligence** and its column to **Period**.
-3. Rename the first item to **Current**: `SELECTEDMEASURE ()`.
-4. Add the remaining items (**New calculation item**), in this order:
+1. **Model view → Home → Calculation group** (potwierdź komunikat o miarach niejawnych – implicit measures).
+2. Zmień nazwę tabeli na **Time Intelligence**, a jej kolumny na **Period**.
+3. Zmień nazwę pierwszego elementu na **Current**: `SELECTEDMEASURE ()`.
+4. Dodaj pozostałe elementy (**New calculation item**) w tej kolejności:
 
 ```dax
 YTD =
@@ -40,37 +40,37 @@ RETURN
     DIVIDE ( _Current - _PY, _PY )
 ```
 
-5. Select the **YoY %** item → turn on **Dynamic format string** → `"0.0%"`.
+5. Zaznacz element **YoY %** → włącz **Dynamic format string** → `"0.0%"`.
 
-`D_Date` is marked as a date table, so the time-intelligence functions work on `D_Date[Date]`.
+`D_Date` jest oznaczona jako tabela dat, więc funkcje time intelligence działają na `D_Date[Date]`.
 
 ## 2. Test
 
-Matrix: rows **D_Date[Year]**, columns **Time Intelligence[Period]**, values **Sales Amount**.
-Then swap the value to **Margin** and **Order Count** – the same five items work for every measure.
+Macierz (Matrix): wiersze **D_Date[Year]**, kolumny **Time Intelligence[Period]**, wartości **Sales Amount**.
+Potem zamień wartość na **Margin** i **Order Count** – te same pięć elementów działa dla każdej miary.
 
-**Check your result (Sales Amount):**
+**Sprawdź wynik (Sales Amount):**
 
 | Year | Current | PY | YoY % |
 |---|---:|---:|---:|
-| 2024 | 112,037,249 | 101,433,774 | 10.5% |
-| 2025 | 120,007,633 | 112,037,249 | 7.1% |
+| 2024 | 112 037 249 | 101 433 774 | 10,5% |
+| 2025 | 120 007 633 | 112 037 249 | 7,1% |
 
-YTD at **March 2025** (rows: Calendar hierarchy down to Year Month) = **21,848,846**.
+YTD dla **marca 2025** (wiersze: hierarchia Calendar do poziomu Year Month) = **21 848 846**.
 
-## 3. Discuss
+## 3. Do dyskusji
 
-1. Why did Power BI turn off implicit measures when you created the group?
-2. Put **Margin %** in the matrix. Is **YoY** meaningful for a ratio? How would you handle it?
-3. What happens if a report also uses a second calculation group (e.g. currency conversion)? Look up **precedence**.
+1. Dlaczego Power BI wyłączył miary niejawne, gdy utworzyłeś grupę?
+2. Wstaw do macierzy **Margin %**. Czy **YoY** ma sens dla wskaźnika procentowego? Jak byś to rozwiązał?
+3. Co się stanie, jeśli raport używa też drugiej calculation group (np. przeliczania walut)? Sprawdź, czym jest **precedence**.
 
-## 4. Challenge (optional)
+## 4. Wyzwanie (opcjonalne)
 
-The fiscal year starts on 1 July. Add a **Fiscal YTD** item:
+Rok fiskalny zaczyna się 1 lipca. Dodaj element **Fiscal YTD**:
 
 ```dax
 Fiscal YTD =
 CALCULATE ( SELECTEDMEASURE (), DATESYTD ( D_Date[Date], "06-30" ) )
 ```
 
-Test it with rows **D_Date[Fiscal Year]**. Check: Sales Amount for **FY2026** (Jul 2025 – Jun 2026) = **125,558,962**.
+Przetestuj z wierszami **D_Date[Fiscal Year]**. Kontrola: Sales Amount dla **FY2026** (lip 2025 – cze 2026) = **125 558 962**.
